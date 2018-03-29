@@ -1,5 +1,4 @@
 require('./config/config');
-process.env.MONGODB_URI = 'mongodb://localhost:27017/TodoApp';
 
 const _ = require('lodash');
 const express = require('express');
